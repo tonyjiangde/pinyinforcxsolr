@@ -30,7 +30,7 @@ Chinese text needs specific tokenzier and analyzer. For tokenizer we have follow
 
         <tokenizer class="org.ansj.solr.AnsjTokenizerFactory"  isQuery="false"/>
 
-There articles compares also the performance of tokenizers e.g. https://www.cnblogs.com/lies-joker/p/4203788.html, you should make a choice.
+There are articles compares also the performance of tokenizers e.g. https://www.cnblogs.com/lies-joker/p/4203788.html, you should make a choice.
 
 In order to allow pinyin index and search of chinese on solr, you need also addional analyzer, you can also find third party libs online like pinyinanalyzer from com.shentong.search.analyzers. Most of them are using pinyin4j  (http://pinyin4j.sourceforge.net/) to transform chinese character into pinyin.
 So, the basic process flow is that tokenizer will identify works in sentence => analyzer using pinyin4j transform the words into pinyin => pinyin will be indexed by solr for later query.
