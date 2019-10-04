@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/pinyinAnalyzer4.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-common-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-kuromoji-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-nori-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-phonetic-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-backward-codecs-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-classification-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-codecs-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-expressions-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-grouping-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-highlighter-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-join-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-memory-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-misc-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queries-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queryparser-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-sandbox-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-spatial-extras-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-spatial3d-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-suggest-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/solr-core-7.7.1.jar" sourcepath="/var/folders/qq/pblv9q_52vjgwckj1x0v47q40000gn/T/.org.sf.feeling.decompiler1570002205234/source/solr-core-7.7.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/solr-solrj-7.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/ik-analyzer-solr5-5.x.jar"/>
+	<classpathentry kind="lib" path="lib/solr-analyzer-ik-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-smartcn-7.7.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
