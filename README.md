@@ -105,3 +105,11 @@ In order to extend current configuration of CX Commerce allowing for more standa
         <dynamicField name="*_text_zh_pinyin_sort" type="text_pinyin_sort" indexed="true" stored="true" multiValued ="false" />
 
         <copyField source="*_text_zh" dest="*_text_zh_pinyin_sort"/>
+
+4. Restart hybris and execute full index in backoffice and check in solr admin console.
+   
+  Use Analysis tool you can see "照相机" would be tranform to pinyin "zhaoxiangji" and "zxj" ![screen shot](https://github.com/tonyjiangde/pinyinforcxsolr/blob/master/images/analysis-pinyin.png)
+
+ You can also search chinese content using pinyin ![screen shot](https://github.com/tonyjiangde/pinyinforcxsolr/blob/master/images/search.png)
+
+ You can also sort chinese content using the "*_text_zh_pinyin_sort" field ![screen shot](https://github.com/tonyjiangde/pinyinforcxsolr/blob/master/images/sort.png)
