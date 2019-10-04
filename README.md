@@ -63,7 +63,7 @@ In order to extend current configuration of CX Commerce allowing for more standa
         paris => “pa”, “par”, “pari”, “paris”
 
 
-4. CXPinyinIntField extends IntPointField which convert  string value into integer. Since in order to allow for the sort on first letter of pinyin of each character, the first letters need to be converted to an int value. E.g for “ewh”, calculate the difference of each letter to ascii a, you got 5，23，8 and the bin are: 00101，10101，01000, combine them 001011010101000 then sort the int value, you have what you want.
+4. CXPinyinIntField extends IntPointField which convert  string value into integer. Since in order to allow for the sort on first letter of pinyin of each character, the first letters need to be converted to an int value. E.g for “ewh”, calculate the difference of each letter to ascii a, you got 5，23，8 and the bin are: 00101，10101，01000, combine them 001011010101000 then sort the int value, you have what you want. Here I calculate only for the first letter of first three character, you should modify this base on your needs.
 
 
 
